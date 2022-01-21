@@ -1,0 +1,64 @@
+#nav {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 80px 40px;
+  grid-template-areas:
+    "n1 n1 n1 n2 n2 n2 n2 n2 n2 n2 n2 n2"
+    "n3 n3 n3 n4 n4 n4 n4 n4 n5 n5 n5 n5";
+  color: white;
+  background-color: teal;
+  font-size: 20px;
+}
+.n4 > div {
+  /* border: 1px solid red; */
+  margin-right: 30px;
+}
+.n5 > div {
+  /* border: 1px solid red; */
+  margin-right: 30px;
+}
+.n1 {
+  grid-area: n1;
+  margin: auto 130px;
+}
+.n2 {
+  grid-area: n2;
+  margin: auto 0;
+}
+.n3 {
+  grid-area: n3;
+}
+.n4 {
+  grid-area: n4;
+  display: flex;
+}
+.n5 {
+  grid-area: n5;
+  display: flex;
+}
+select {
+  height: 55px;
+  width: 160px;
+}
+input {
+  height: 50px;
+  width: 480px;
+}
+button {
+  height: 50px;
+  width: 50px;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+#flex {
+  display: flex;
+  justify-content: space-around;
+}
+h1 + button {
+  width: 100px;
+}

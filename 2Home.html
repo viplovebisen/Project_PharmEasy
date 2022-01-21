@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pharmeasy.in/Home</title>
+    <script
+      src="https://kit.fontawesome.com/629044acfa.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      #nav {
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 80px 40px;
+        grid-template-areas:
+          "n1 n1 n1 n2 n2 n2 n2 n2 n2 n2 n2 n2"
+          "n3 n3 n3 n4 n4 n4 n4 n4 n5 n5 n5 n5";
+        color: white;
+        background-color: teal;
+        font-size: 20px;
+      }
+      .n4 > div {
+        /* border: 1px solid red; */
+        margin-right: 30px;
+      }
+      .n5 > div {
+        /* border: 1px solid red; */
+        margin-right: 30px;
+      }
+      .n1 {
+        grid-area: n1;
+        margin: auto 130px;
+      }
+      .n2 {
+        grid-area: n2;
+        margin: auto 0;
+      }
+      .n3 {
+        grid-area: n3;
+      }
+      .n4 {
+        grid-area: n4;
+        display: flex;
+      }
+      .n5 {
+        grid-area: n5;
+        display: flex;
+      }
+      select {
+        height: 55px;
+        width: 160px;
+      }
+      input {
+        height: 50px;
+        width: 480px;
+      }
+      button {
+        height: 50px;
+        width: 50px;
+      }
+
+      .flex{
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="nav">
+      <div class="n1">
+        <img
+          src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png"
+          alt="img1"
+          height="50px"
+          width="150px"
+          ;
+        />
+      </div>
+      <div class="n2">
+        <form>
+          <select>
+            <option>Select Pincode</option>
+          </select>
+          <input
+            type="text"
+            placeholder="Search medicines/Healthcare products @18% Off"
+          />
+          <button><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+      <div class="n3"></div>
+      <div class="n4">
+        <div onclick="window.location.href='3Order.html'">Order Medicines</div>
+        <div onclick="window.location.href='4Products.html'">
+          Healthcare Products
+        </div>
+        <div onclick="window.location.href='5LabTests.html'">Lab Tests</div>
+      </div>
+      <div class="n5">
+        <div onclick="window.location.href='6Offers.html'">
+          <i class="fas fa-percent"></i>Offers
+        </div>
+        <div onclick="window.location.href='7LoginSignup.html'">
+          <i class="far fa-grin-beam"></i>Login / Signup
+        </div>
+        <div onclick="window.location.href='8Cart.html'">
+          <i class="fas fa-cart-plus"></i>Cart
+        </div>
+      </div>
+    </div>
+
+    <img
+      src="https://cms-contents.pharmeasy.in/banner/ff62f53c2ba-GRAND25DWEB.jpg?dim=1440x0&dpr=1&q=100"
+      alt=""
+      height="250px"
+      width="100%"
+    />
+    <div class="flex">
+      <div>
+        <p>FLAT 18% OFF</p>
+        <p>Order Medicine</p>
+        <img src="" alt="" height="" width="" />
+        <button>Order Now</button>
+      </div>
+      <div>
+        <p>UPTO 60% OFF</p>
+        <p>Healthcare Products</p>
+        <img src="" alt="" height="" width="" />
+        <button>Order Now</button>
+      </div>
+      <div>
+        <p>UPTO 70% OFF</p>
+        <p>Lab Tests</p>
+        <img src="" alt="" height="" width="" />
+        <button>Book Now</button>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="flex">
+      <img src="https://assets.pharmeasy.in/web-assets/dist/0ad2d80a.png"  alt="" width="15%" height="100px"/>
+      <img src="https://assets.pharmeasy.in/web-assets/dist/6e630ccf.png"  alt="" width="15%" height="100px"/>
+      <img src="https://assets.pharmeasy.in/web-assets/dist/c9bd8df2.png"  alt="" width="15%" height="100px"/>
+      <img src="https://assets.pharmeasy.in/web-assets/dist/aada0d0d.png"  alt="" width="15%" height="100px"/>
+      <img src="https://assets.pharmeasy.in/web-assets/dist/091811c4.png"  alt="" width="15%" height="100px"/>
+    </div>
+    <br><br><br>
+    <div class="flex">
+      <h1><i class="fas fa-percent"></i>Offers Just For You</h1>
+      <h2>SEE ALL OFFERS</h2>
+    </div>
+    <img src="data/primg2u2.png" alt="" width="100%" height="600px" />
+    <h2>Featured Brands</h2>
+    <div class="flex">
+      <img src="https://cms-contents.pharmeasy.in/carousel_item/d2988ac646f-Web_featured-brand_Dettol.png?dim=146x0&dpr=1.25&q=100" alt="" width="10%" height="200px"/>
+      <img src="https://cms-contents.pharmeasy.in/carousel_item/fd17e547883-Horlicks_web.jpg?dim=146x0&dpr=1.25&q=100" alt="" width="10%" height="200px"/>
+      <img src="https://cms-contents.pharmeasy.in/carousel_item/a2ec4d896ba-Web_Featured-Vicks.jpg?dim=146x0&dpr=1.25&q=100" alt="" width="10%" height="200px"/>
+      <img src="https://cms-contents.pharmeasy.in/carousel_item/c572570b5ce-Liveasy.jpg?dim=146x0&dpr=1.25&q=100" alt="" width="10%" height="200px"/>
+      <img src="https://cms-contents.pharmeasy.in/carousel_item/2d987111a15-Featured-banner_Revital.png?dim=146x0&dpr=1.25&q=100" alt="" width="10%" height="200px"/>
+      <img src="https://cms-contents.pharmeasy.in/carousel_item/fffbe044dc3-web_Baidynath.jpg?dim=146x0&dpr=1.25&q=100" alt="" width="10%" height="200px"/>
+      <img src="https://cms-contents.pharmeasy.in/carousel_item/487644e2f83-Nivea_web.jpg?dim=146x0&dpr=1.25&q=100" alt="" width="10%" height="200px"/>
+      <img src="https://cms-contents.pharmeasy.in/carousel_item/ac01791d842-Featured-banner_Volini.png?dim=146x0&dpr=1.25&q=100" alt="" width="10%" height="200px"/>
+    </div>
+    <br><br><br>
+    <img src="https://cdn01.pharmeasy.in/dam/banner/banner/c5ae1494075-DesktopTrust.png?dim=1024x100&dpr=1.25&q=100" alt="" width="100%"/>
+    <br><br><br>
+    <img src="data/primg1u2.png" alt="" width="100%" height="600px" />
+    <br><br><br>
+    <p>
+      <b>Top-Selling Healthcare Products:</b>
+       Accu-Chek Active - 100 Strips | Supradyn Multivitamin Tablets | DR Morepen BG 03 - 50 Strips | Dettol Antiseptic Liquid 
+       | Ensure Diabetes Care Vanilla Sugar Free Jar | Dettol Instant Hand Sanitizer | Everherb Shilajit | Softovac SF Powder | Pediasure Premium Chocolate Refill
+      <br><br>
+      <b>Top-Selling Medicines:</b>
+      | Dolovera Gel | Neurobion Forte | Chymoral Forte | Crocin Advance | Soframycin | Dexorange | Becadexamin | Folvite | Livogen | Becosules | Fourderm 
+      | Nurokind Plus | Burnol | Crocin 650 | Mintop 5 | Thrombophob | Evion 600
+      <br><br>
+      <b>Top-Searched Healthcare Brands:</b>
+      Accu Chek | Dettol | Horlicks | Protinex | Supradyn | Ensure | Indulekha | Zandu | Pediasure | Dr Morepen
+      <br><br>
+      <b>COVID-19 Preventatives:</b>
+      N95 Masks | Hand Sanitizers | Hand Gloves, Disinfectants, Thermometers & more!
+      <br><br>
+      <h3>Your One-Stop Online Pharmacy - PharmEasy</h3>
+      <br><br>
+      <b>We've got India Covered!</b>
+      <br><br>
+      We now deliver in 1000+ cities and towns across 22000+ pin codes. We thereby cover every nook and corner of the country! The major cities in which we deliver include Mumbai, Kolkata, Delhi, Bengaluru, Ahmedabad, Hyderabad, Chennai, Thane, Howrah, Pune, Gurgaon, Navi Mumbai, Jaipur, Noida, Lucknow, Ghaziabad & Vadodara.
+      <br><br>
+      <b>Say Goodbye to All Your Healthcare Worries With PharmEasy!</b>
+      <br><br>
+      PharmEasy is here to help you take it easy! We are amongst one of India's top online pharmacy and medical care platforms. It enables you to order pharmaceutical and healthcare products online by connecting you to registered retail pharmacies and get them delivered to your home. We are an online medical store, making your purchase easy, simple, and affordable!
+      <br><br>
+      <b>How Are We Making Lives Simpler With Our Online Medical Store?</b>
+      <br><br>
+      Our doorstep delivery service is available in PAN-India across top cities like Bangalore, Delhi, Mumbai, Kolkata, Hyderabad, Gurgaon, Noida, Pune, etc. Our online medical store also allows you to choose from 1 lakh+ products incl. OTC products and medical equipment. PharmEasy is a one-stop online medical platform where you can also book diagnostic tests including blood tests, full-body checkups, and other preventive health check-ups at an affordable cost, right from the comfort of your home. We have partnered with trusted & certified labs that arrange for a sample pick-up from the convenience of your home. They also provide you with timely reports.
+      <br><br>
+      <b>Why Are We The Most Preferred Online Pharmacy?</b>
+      <br><br>
+      Lucrative offers on our platform allow you to make payment online and via various payment wallets at a discounted price. Alternatively, you can also choose to pay cash on delivery as we deliver the products at your doorstep. We cater to all your pharmaceutical needs and also make ordering medicines online a hassle-free experience for you. We connect you only with registered retail pharmacies & certified diagnostic labs. We ensure that healthcare is affordable to all and make the process of ordering online simple.
+      <br><br>
+      <b>Sit Back & Relax While You Get Your Essentials Delivered Every Month!</b>
+      <br><br>
+      It's tough to remember to refill every month, especially in the case of chronic diseases. PharmEasy's subscription service not only ensures that you are reminded of your refills but also makes sure that you are never out on your medical essentials. You will get a reminder every month and your order will be delivered at your convenience!
+      <br><br>
+      <b>Access medical and health information:</b>
+      <br><br>
+      PharmEasy delivers reliable and accurate medical information that has been carefully written, vetted and validated by our health experts. Our specialists curate high-quality and most reliable literature about medicines, illnesses, lab tests, Ayurvedic and over the counter health products.
+      <br><br>
+      <b>We Believe in 'Simplifying Healthcare, Impacting Lives!''</b>
+    </p>
+    <br><br><br>
+  </body>
+</html>

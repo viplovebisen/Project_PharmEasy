@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pharmeasy.in/OrderMedicines</title>
+    <script
+      src="https://kit.fontawesome.com/629044acfa.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      #nav {
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 80px 40px;
+        grid-template-areas:
+          "n1 n1 n1 n2 n2 n2 n2 n2 n2 n2 n2 n2"
+          "n3 n3 n3 n4 n4 n4 n4 n4 n5 n5 n5 n5";
+        color: white;
+        background-color: teal;
+        font-size: 20px;
+      }
+      .n4 > div {
+        /* border: 1px solid red; */
+        margin-right: 30px;
+      }
+      .n5 > div {
+        /* border: 1px solid red; */
+        margin-right: 30px;
+      }
+      .n1 {
+        grid-area: n1;
+        margin: auto 130px;
+      }
+      .n2 {
+        grid-area: n2;
+        margin: auto 0;
+      }
+      .n3 {
+        grid-area: n3;
+      }
+      .n4 {
+        grid-area: n4;
+        display: flex;
+      }
+      .n5 {
+        grid-area: n5;
+        display: flex;
+      }
+      select {
+        height: 55px;
+        width: 160px;
+      }
+      input {
+        height: 50px;
+        width: 480px;
+      }
+      button {
+        height: 50px;
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="nav">
+      <div class="n1">
+        <img
+          src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png"
+          alt="img1"
+          height="50px"
+          width="150px"
+          ;
+        />
+      </div>
+      <div class="n2">
+        <form>
+          <select>
+            <option>Select Pincode</option>
+          </select>
+          <input
+            type="text"
+            placeholder="Search medicines/Healthcare products @18% Off"
+          />
+          <button><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+      <div class="n3"></div>
+      <div class="n4">
+        <div onclick="window.location.href='3Order.html'">Order Medicines</div>
+        <div onclick="window.location.href='4Products.html'">
+          Healthcare Products
+        </div>
+        <div onclick="window.location.href='5LabTests.html'">Lab Tests</div>
+      </div>
+      <div class="n5">
+        <div onclick="window.location.href='6Offers.html'">
+          <i class="fas fa-percent"></i>Offers
+        </div>
+        <div onclick="window.location.href='7LoginSignup.html'">
+          <i class="far fa-grin-beam"></i>Login / Signup
+        </div>
+        <div onclick="window.location.href='8Cart.html'">
+          <i class="fas fa-cart-plus"></i>Cart
+        </div>
+      </div>
+    </div>
+
+    <h1>Order Medicines</h1>
+  </body>
+</html>
